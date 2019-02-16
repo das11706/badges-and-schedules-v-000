@@ -21,8 +21,9 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  while attendees.length > 0
-  puts badges.chomp
+  while batch_badge_creator(attendees)
+  
+  puts badges
 
   end
 end
