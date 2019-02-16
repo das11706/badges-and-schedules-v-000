@@ -22,7 +22,7 @@ end
 
 def printer(attendees)
   while attendees.length > 0
-  puts badges
+  puts badges.chomp
 
   end
 end
