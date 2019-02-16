@@ -6,8 +6,8 @@ end
 def batch_badge_creator(attendees)
   badges = []
   attendees.each do |attendee|
-  #badges << "Hello, my name is #{attendee}."
-  badges << badge_maker(attendee)
+  badges << "Hello, my name is #{attendee}."
+  #badges << badge_maker(attendee)
   end
   return badges
 end
@@ -23,7 +23,7 @@ end
 def printer(attendees)
   while batch_badge_creator(attendees)
 
-  puts badge_maker(name)
+  puts badges
 
   end
 end
