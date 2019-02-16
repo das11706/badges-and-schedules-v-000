@@ -26,4 +26,5 @@ def printer(attendees)
   end
   while assign_rooms(attendees)
     puts room_assignments
+  end
 end
