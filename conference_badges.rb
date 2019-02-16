@@ -23,6 +23,6 @@ end
 def printer(attendees)
   while batch_badge_creator(attendees).length > 0
   puts badge
-  
+
   end
 end
