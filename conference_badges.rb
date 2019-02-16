@@ -22,7 +22,7 @@ end
 
 def printer(attendees)
   while batch_badge_creator(attendees).length > 0
-  puts attendees
+  puts attendees[]
 
   end
 end
